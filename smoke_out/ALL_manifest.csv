@@ -1,0 +1,2 @@
+dataset,mitab_path,n_ppi_raw,top_taxids,n_ppi_filtered,m_total,m_train,m_val,m_test,stratified,n_train_proteins,n_train_hyperedges,n_val_hyperedges,n_test_hyperedges,lambda_star,k_star,k_matched,go_coverage
+SynthA,SynthA\SynthA.txt,514,"['10090', '9606', '10116']",514,120,72,23,25,True,162,72,23,25,0.001,8,15,1.0

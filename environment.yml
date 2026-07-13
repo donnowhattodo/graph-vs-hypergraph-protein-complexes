@@ -1,0 +1,20 @@
+name: hgspectral
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2.0
+  - scikit-learn>=1.3
+  - networkx>=3.1
+  - matplotlib>=3.7
+  - python-igraph>=0.11
+  - leidenalg>=0.10
+  - pip
+  - pip:
+      - markov_clustering>=0.0.6
+      - scikit-posthocs>=0.9
+      - pytest>=7.0
+      # optional, for real GO DAG ontology split + semantic similarity:
+      # - goatools>=1.3
