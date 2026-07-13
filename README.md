@@ -109,10 +109,7 @@ The pipeline writes per-dataset result files such as:
 PYTHONPATH=. python tests/test_pipeline.py
 ```
 
-## Notes for reproducibility
-
-This project is intended to be reproducible and publication-oriented. The repository includes both a lightweight synthetic smoke test and a full pipeline for large-scale benchmark runs.
 
 ## License
 
-This repository is provided as a research codebase. If you intend to publish or redistribute it, please review and adjust the licensing terms according to your institutional or publication requirements.
+This repository is provided as a research codebase. If you intend to publish or redistribute it, please review and adjust the licensing terms according to your institutional or publication requirements and cite properly.
