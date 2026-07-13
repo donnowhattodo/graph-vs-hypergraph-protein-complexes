@@ -1,0 +1,46 @@
+{
+  "dataset_names": [
+    "Cardiac",
+    "BioCreative"
+  ],
+  "search_roots": [
+    ".",
+    "HG_Human"
+  ],
+  "top_k_taxids": 3,
+  "min_complex_size": 2,
+  "split_fracs": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "stratify_by_size": true,
+  "split_seed": 12345,
+  "lambda_grid": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "k_matched": "rule",
+  "min_cluster_size": 5,
+  "adaptive_criteria": [
+    "eigengap",
+    "silhouette",
+    "modularity"
+  ],
+  "kmax": 15,
+  "n_seeds": 20,
+  "base_seed": 42,
+  "n_control_seeds": 10,
+  "run_controls": true,
+  "run_louvain": true,
+  "run_leiden": true,
+  "run_mcl": true,
+  "q_threshold": 0.05,
+  "min_term_size": 5,
+  "out_root": "fin_result"
+}
