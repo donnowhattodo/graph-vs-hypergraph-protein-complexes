@@ -109,7 +109,7 @@ The pipeline writes per-dataset result files such as:
 PYTHONPATH=. python tests/test_pipeline.py
 ```
 
-
 ## License
-
 This repository is provided as a research codebase. If you intend to publish or redistribute it, please review and adjust the licensing terms according to your institutional or publication requirements and cite properly.
+
+Copyright © Kazi Hafiz Md Asad (GitHub: [@donnowhattodo](https://github.com/donnowhattodo))
